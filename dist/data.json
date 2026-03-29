@@ -164,6 +164,11 @@
     "p": "/bc",
     "d": "算术操作精密运算工具"
   },
+  "beep": {
+    "n": "beep",
+    "p": "/beep",
+    "d": "用于控制 PC 扬声器发出蜂鸣声的命令行工具。"
+  },
   "bg": {
     "n": "bg",
     "p": "/bg",
@@ -183,11 +188,6 @@
     "n": "blockdev",
     "p": "/blockdev",
     "d": "从命令行调用区块设备控制程序"
-  },
-  "bmodinfo": {
-    "n": "bmodinfo",
-    "p": "/bmodinfo",
-    "d": "显示给定模块的详细信息"
   },
   "break": {
     "n": "break",
@@ -869,6 +869,11 @@
     "p": "/get_module",
     "d": "获取Linux内核模块的详细信息"
   },
+  "getcap": {
+    "n": "getcap",
+    "p": "/getcap",
+    "d": "显示文件的能力（capabilities）"
+  },
   "getenforce": {
     "n": "getenforce",
     "p": "/getenforce",
@@ -878,6 +883,11 @@
     "n": "getent",
     "p": "/getent",
     "d": "查询 DNS 名称服务器中的命名空间"
+  },
+  "getfacl": {
+    "n": "getfacl",
+    "p": "/getfacl",
+    "d": "获取文件访问控制列表(access control lists)"
   },
   "getsebool": {
     "n": "getsebool",
@@ -927,7 +937,7 @@
   "groupmod": {
     "n": "groupmod",
     "p": "/groupmod",
-    "d": "更改群组识别码或名称"
+    "d": "修改系统上的组定义"
   },
   "groups": {
     "n": "groups",
@@ -1132,7 +1142,7 @@
   "iostat": {
     "n": "iostat",
     "p": "/iostat",
-    "d": "iostat命令被用于监视系统输入输出设备和CPU的使用情况。它的特点是汇报磁盘活动统计情况，同时也会汇报出CPU使用情况。同vmstat一样，iostat也有一个弱点，就是它不能对某个进程进行深入分析，仅对系统的整体情况进行分析。iowait 指在一个采样周期内有百分之几的时间是属于以下情况：CPU处于空闲状态并且至少有一个未完成的磁盘IO请求。"
+    "d": "监视系统输入输出设备和CPU的使用情况"
   },
   "iotop": {
     "n": "iotop",
@@ -1237,7 +1247,7 @@
   "journalctl": {
     "n": "journalctl",
     "p": "/journalctl",
-    "d": "检索 systemd 日志，是 CentOS 7 才有的工具。"
+    "d": "检索 systemd 日志，只要使用 systemd 的 Linux 发行版（如 Fedora、Ubuntu Modern、Debian、SUSE、Arch），几乎都会配备 journalctl。"
   },
   "jq": {
     "n": "jq",
@@ -1619,6 +1629,11 @@
     "p": "/modetest",
     "d": "DRM/KMS驱动程序libdrm中的模式测试工具"
   },
+  "modinfo": {
+    "n": "modinfo",
+    "p": "/modinfo",
+    "d": "显示给定模块的详细信息"
+  },
   "modprobe": {
     "n": "modprobe",
     "p": "/modprobe",
@@ -1682,7 +1697,7 @@
   "named-checkzone": {
     "n": "named-checkzone",
     "p": "/named-checkzone",
-    "d": "使用named-checkzone命令可以进行区域文件有效性检查和转换，必须指定区域名称和区域文件名称"
+    "d": "使用 named-checkzone 可验证并转换区域文件，需指定区域名和文件名。"
   },
   "nano": {
     "n": "nano",
@@ -1693,6 +1708,11 @@
     "n": "nc",
     "p": "/nc",
     "d": "nc是网络工具中的瑞士军刀"
+  },
+  "ncdu": {
+    "n": "ncdu",
+    "p": "/ncdu",
+    "d": "磁盘使用情况的交互式查看工具，可视为 du 的增强版本"
   },
   "ncftp": {
     "n": "ncftp",
@@ -1778,6 +1798,11 @@
     "n": "nslookup",
     "p": "/nslookup",
     "d": "查询域名DNS信息的工具"
+  },
+  "nstat": {
+    "n": "nstat",
+    "p": "/nstat",
+    "d": "nstat 是一个简单的监视内核的 SNMP 计数器和网络接口状态的实用工具。"
   },
   "ntpdate": {
     "n": "ntpdate",
@@ -2078,6 +2103,11 @@
     "n": "readonly",
     "p": "/readonly",
     "d": "标记shell变量或函数为只读"
+  },
+  "realpath": {
+    "n": "realpath",
+    "p": "/realpath",
+    "d": "解析并规范化文件路径，返回绝对路径。"
   },
   "reboot": {
     "n": "reboot",
@@ -2384,6 +2414,11 @@
     "p": "/sort",
     "d": "对文本文件中所有行进行排序。"
   },
+  "sosreport": {
+    "n": "sosreport",
+    "p": "/sosreport",
+    "d": "收集系统配置和诊断信息"
+  },
   "source": {
     "n": "source",
     "p": "/source",
@@ -2688,6 +2723,11 @@
     "n": "type",
     "p": "/type",
     "d": "显示指定命令的类型。"
+  },
+  "ufw": {
+    "n": "ufw",
+    "p": "/ufw",
+    "d": "  ubuntu防火墙管理工具"
   },
   "ulimit": {
     "n": "ulimit",
